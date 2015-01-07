@@ -1,6 +1,6 @@
 (function (global) {
     var app = global.app = global.app || {};
-
+	
     app.makeUrlAbsolute = function (url) {
             var anchorEl = document.createElement("a");
             anchorEl.href = url;
