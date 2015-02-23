@@ -1,6 +1,5 @@
 {
   "ProjectName": "sample-kendoui-core-widgets",
-  "IsRunnable": "true",
   "ProjectGuid": "3960f3dd-611c-4476-b461-8ace958f4be7",
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.samplekendouicorewidgets",
@@ -13,11 +12,8 @@
     "1",
     "2"
   ],
-  "iOSBackgroundMode": [],
   "WP8TileTitle": "",
   "WP8Publisher": "",
-  "WP8Capabilities": [],
-  "WP8Requirements": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "FrameworkVersion": "3.5.0",
   "CorePlugins": [
