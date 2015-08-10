@@ -17,8 +17,6 @@
 		"1",
 		"2"
 	],
-	"WP8TileTitle": "",
-	"WP8Publisher": "",
 	"ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
 	"FrameworkVersion": "3.7.0",
 	"CorePlugins": [
@@ -70,9 +68,13 @@
 	"AndroidHardwareAcceleration": "false",
 	"iOSStatusBarStyle": "Default",
 	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_HD720P",
 		"ID_RESOLUTION_WVGA",
-		"ID_RESOLUTION_WXGA",
-		"ID_RESOLUTION_HD720P"
+		"ID_RESOLUTION_WXGA"
 	],
-	"Framework": "Cordova"
+	"Framework": "Cordova",
+	"WP8PublisherID": "{2153f2b8-6eda-4915-bdf7-c12f6ea8f753}",
+	"WP8ProductID": "{5f530eee-1a01-4c8c-a4a8-88e100821ec3}",
+	"WP8PackageIdentityName": "1234Telerik.com.telerik.samplekendouicorewidgets",
+	"WP8WindowsPublisherName": "CN=Telerik"
 }
