@@ -1,0 +1,6 @@
+title: Kendo UI Core Mobile App
+slug: sample-kendo-ui-core-widgets
+page_title: Kendo UI Core Mobile App (formerly the Kendo UI Mobile app template)
+description: This demo application (formerly the Kendo UI Mobile app template) shows how to use Telerik AppBuilder and the mobile widgets from Kendo UI Core to develop a hybrid mobile app. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding.
+tags: kendo-ui, cordova
+publish: true
