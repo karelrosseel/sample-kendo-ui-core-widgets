@@ -6,6 +6,12 @@ Kendo UI Core Mobile App
 
 This sample shows you how to implement a native-looking user interface along with the unique Flat UI. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding.
 
+> *Last updated:* August 10, 2015
+> 
+> *Supported mobile platforms:* iOS, Android, Windows Phone
+>
+> *Developed with:* Apache Cordova 3.7.0, Kendo UI Core v2014.1.624
+
 ## Showcased APIs
 
 This sample shows how to use the following widgets and features of Kendo UI Core.
@@ -26,6 +32,14 @@ This sample shows how to use the following Apache Cordova core plugins.
 
 * **[Geolocation][Geolocation]:** The plugin provides information about the location of the device.
 * **[Dialogs (Notification)][Dialogs (Notification)]:** The plugin provides access to the native prompt, alert and confirmation dialogs, and to the beep alerts.
+
+### Important Directories and Files
+
+* `data\weather.json`: Contains dummy data for the weather view model.
+* `scripts\app.js`: Contains the application initialization and the implementation of switching between the native and the flat UI skins.
+* `scripts\location.js`: Contains the implementation of the geolocation view model.
+* `scripts\login.js`: Contains the implementation of the login view model.
+* `scripts\qr-code.js`: Contains the implementation of the weather view model.
 
 ### Screenshots
 
@@ -107,7 +121,7 @@ The extension for Visual Studio copies the sample files locally. The extension c
 
 ### Run the sample
 
-With the AppBuilder Windows client, you can quickly test your apps on device, in the simulator or in the native emulators.
+With the AppBuilder extension for Visual Studio, you can quickly test your apps on device, in the simulator or in the native emulators.
 
 1. [Run in the device simulator.][device simulator]
 1. [Run in the companion app.][companion]
@@ -134,6 +148,16 @@ With the AppBuilder command-line interface, you can develop hybrid and NativeScr
 	```
 
 The AppBuilder command-line interface shows the following message: `Successfully initialized project in the folder!`
+
+### Run the sample
+
+With the AppBuilder command-line interface, you can quickly test your apps on device, in the simulator or in the native emulators.
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
 
 [device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
 [companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
