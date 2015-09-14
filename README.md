@@ -1,6 +1,6 @@
 Kendo UI Core Mobile App
 ====================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-kendo-ui-core-widgets" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
 ## Overview
 
@@ -26,6 +26,29 @@ This sample shows how to use the following Apache Cordova core plugins.
 
 * **[Geolocation][Geolocation]:** The plugin provides information about the location of the device.
 * **[Dialogs (Notification)][Dialogs (Notification)]:** The plugin provides access to the native prompt, alert and confirmation dialogs, and to the beep alerts.
+
+### Screenshots
+
+#### iOS
+
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](screenshots/ios/native-home.png) | ![](screenshots/ios/native-login.png) | ![](screenshots/ios/native-location.png) | ![](screenshots/ios/native-weather.png)
+Flat | ![](screenshots/ios/flat-home.png) | ![](screenshots/ios/flat-login.png) | ![](screenshots/ios/flat-location.png) | ![](screenshots/ios/flat-weather.png)
+
+#### Android
+
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](screenshots/android/native-home.png) | ![](screenshots/android/native-login.png) | ![](screenshots/android/native-location.png) | ![](screenshots/android/native-weather.png)
+Flat | ![](screenshots/android/flat-home.png) | ![](screenshots/android/flat-login.png) | ![](screenshots/android/flat-location.png) | ![](screenshots/android/flat-weather.png)
+
+#### Windows Phone
+
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](screenshots/wp/native-home.png) | ![](screenshots/wp/native-login.png) | ![](screenshots/wp/native-location.png) | ![](screenshots/wp/native-weather.png)
+Flat | ![](screenshots/wp/flat-home.png) | ![](screenshots/wp/flat-login.png) | ![](screenshots/wp/flat-location.png) | ![](screenshots/wp/flat-weather.png)
 
 ## In-Browser
 
