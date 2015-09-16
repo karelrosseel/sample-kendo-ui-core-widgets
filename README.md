@@ -1,58 +1,89 @@
-Kendo UI Core Mobile App<br/>(formerly the Kendo UI Mobile app template)
+Kendo UI Core Mobile App
 ====================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-kendo-ui-core-widgets" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
-This sample (formerly the Kendo UI Mobile app template) shows how to use Telerik AppBuilder and the mobile widgets from Kendo UI Core to develop a hybrid mobile app. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding.
+## Overview
 
-## Telerik AppBuilder and Kendo UI Core
+This sample shows you how to implement a native-looking user interface along with the unique Flat UI. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding.
 
-> **IMPORTANT:** Telerik AppBuilder provides a customized Kendo UI Core package. The customized package contains widgets and framework features for mobile development.
+> *Last updated:* August 10, 2015
+> 
+> *Supported mobile platforms:* iOS, Android, Windows Phone
+>
+> *Developed with:* Apache Cordova 3.7.0, Kendo UI Core v2014.1.624
 
-AppBuilder™ is an Integrated Cloud Environment (ICE) that eliminates the complexity associated with cross-platform mobile development. By combining the convenience of a local development environment with the power and flexibility of the cloud, AppBuilder lets you build hybrid mobile apps for multiple mobile platforms. For more information, see the [Telerik AppBuilder web page].
+## Showcased APIs
 
-Kendo UI is a UI framework that provides everything you need to build sites and apps with pure JavaScript and HTML5. Kendo UI Core is the open source version of Kendo UI and provides 40+ widgets and framework features for mobile and web development. For more information, see the [Kendo UI web page].
+This sample shows how to use the following widgets and features of Kendo UI Core.
 
-## Sample Overview
+* **[Kendo MVVM][Kendo MVVM]:** Model View ViewModel (MVVM) is a design pattern which helps developers separate the Model (the data) from the View (the UI). The View-Model part of MVVM is responsible for exposing the data objects from the Model in such a way that those objects are easily consumed in the View.
+* **[Application][Application]:** The widget provides the necessary tools for building native-looking web based mobile applications.
+* **[View][View]:** The widget represents a screen in the Kendo mobile Application.
+* **[Tabstrip][Tabstrip]:** The widget displays an application-wide group of navigation buttons. The look of the mobile TabStrip changes depending on the user mobile device and operating system.
+* **[NavBar][NavBar]:** The widget displays an application navigation bar. The mobile NavBar may display the current view title in the center, and optionally some additional left and right aligned widgets (a back button, settings button, etc.).
+* **[Button][Button]:** The widget navigates to a mobile View or executes a custom callback when tapped.
+* **[ListView][ListView]:** The widget displays flat or grouped list of items.
+* **[ObservableObject][ObservableObject]:** The kendo.data.ObservableObject is the building block of Kendo MVVM.
+* **[DataSource][DataSource]:** The DataSource component is an abstraction for using local data (array of JavaScript objects) or remote data (web service returning JSON, JSONP, OData or XML). 
 
-This sample shows you how to implement a native-looking user interface along with the unique Flat UI. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding. This sample was formerly available as the **Kendo UI Mobile** and **Kendo UI mobile app** project templates.
+For more information about the Kendo UI widget APIs, see the [Kendo UI API Reference][Kendo UI API Reference].
 
-This sample shows how to use the following widgets and features of Kendo UI Core:
+This sample shows how to use the following Apache Cordova core plugins.
 
-* **[Kendo MVVM]:** Model View ViewModel (MVVM) is a design pattern which helps developers separate the Model (the data) from the View (the UI). The View-Model part of MVVM is responsible for exposing the data objects from the Model in such a way that those objects are easily consumed in the View.
-* **[Application]:** The widget provides the necessary tools for building native-looking web based mobile applications.
-* **[View]:** The widget represents a screen in the Kendo mobile Application.
-* **[Tabstrip]:** The widget displays an application-wide group of navigation buttons. The look of the mobile TabStrip changes depending on the user mobile device and operating system.
-* **[NavBar]:** The widget displays an application navigation bar. The mobile NavBar may display the current view title in the center, and optionally some additional left and right aligned widgets (a back button, settings button, etc.).
-* **[Button]:** The widget navigates to a mobile View or executes a custom callback when tapped.
-* **[ListView]:** The widget displays flat or grouped list of items.
-* **[ObservableObject]:** The kendo.data.ObservableObject is the building block of Kendo MVVM.
-* **[DataSource]:** The DataSource component is an abstraction for using local data (array of JavaScript objects) or remote data (web service returning JSON, JSONP, OData or XML). 
+* **[Geolocation][Geolocation]:** The plugin provides information about the location of the device.
+* **[Dialogs (Notification)][Dialogs (Notification)]:** The plugin provides access to the native prompt, alert and confirmation dialogs, and to the beep alerts.
 
-This sample shows how to use the following Apache Cordova core plugins:
+### Important Directories and Files
 
-* **[Geolocation]:** The plugin provides information about the location of the device.
-* **[Dialogs (Notification)]:** The plugin provides access to the native prompt, alert and confirmation dialogs, and to the beep alerts.
+* `data\weather.json`: Contains dummy data for the weather view model.
+* `scripts\app.js`: Contains the application initialization and the implementation of switching between the native and the flat UI skins.
+* `scripts\location.js`: Contains the implementation of the geolocation view model.
+* `scripts\login.js`: Contains the implementation of the login view model.
+* `scripts\qr-code.js`: Contains the implementation of the weather view model.
 
-For more information about the Kendo UI widget APIs, see the [Kendo UI API Reference]. 
+### Screenshots
 
-## Cloning the Sample
+#### iOS
 
-You can clone this sample in Telerik AppBuilder, explore and modify the code, and build and run it on Android, iOS and Windows Phone 8 devices.
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](screenshots/ios/native-home.png) | ![](screenshots/ios/native-login.png) | ![](screenshots/ios/native-location.png) | ![](screenshots/ios/native-weather.png)
+Flat | ![](screenshots/ios/flat-home.png) | ![](screenshots/ios/flat-login.png) | ![](screenshots/ios/flat-location.png) | ![](screenshots/ios/flat-weather.png)
 
-### Clone the sample app in the AppBuilder in-browser client
+#### Android
 
-1. In your browser, verify that you are logged in the Telerik Platform and you have switched to the account in which you want to develop your application.
-1. In the account dashboard, click the workspace in which you want to develop your application.
-1. Click **Create project**.
-1. Select **AppBuilder Hybrid project**.
-1. Select **Start from sample project**.
-1. Select **Demo Applications**.
-1. Select **Kendo ui core widgets**.
-1. (Optional) Rename the project.
-1. (Optional) Update the description.
-1. Click **Create Project**.
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](screenshots/android/native-home.png) | ![](screenshots/android/native-login.png) | ![](screenshots/android/native-location.png) | ![](screenshots/android/native-weather.png)
+Flat | ![](screenshots/android/flat-home.png) | ![](screenshots/android/flat-login.png) | ![](screenshots/android/flat-location.png) | ![](screenshots/android/flat-weather.png)
 
-### Clone a sample app in the AppBuilder Windows client
+#### Windows Phone
+
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](screenshots/wp/native-home.png) | ![](screenshots/wp/native-login.png) | ![](screenshots/wp/native-location.png) | ![](screenshots/wp/native-weather.png)
+Flat | ![](screenshots/wp/flat-home.png) | ![](screenshots/wp/flat-login.png) | ![](screenshots/wp/flat-location.png) | ![](screenshots/wp/flat-weather.png)
+
+## In-Browser
+
+With the AppBuilder in-browser client, you can develop hybrid and NativeScript cross-platform mobile apps from your browser. You can use the in-browser client at [https://platform.telerik.com](https://platform.telerik.com).
+
+### Clone the sample
+
+1. Click **Try in AppBuilder** above.
+1. Provide your login credentials, if prompted.
+
+### Run the sample
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Deploy on device via QR code.][QR code]
+
+## Windows
+
+With the AppBuilder Windows client, you can develop hybrid and NativeScript cross-platform mobile apps from your Windows desktop. You can download and install the Windows client from [http://www.telerik.com/appbuilder/windows-client](http://www.telerik.com/appbuilder/windows-client).
+
+### Clone the sample
 
 1. Verify that the AppBuilder Windows client is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
 1. In the dashboard, click **Samples** and select **Hybrid**.
@@ -62,8 +93,23 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 1. (Optional) Rename the project.
 1. Click **Clone**.
 
-### Clone a sample app in the AppBuilder extension for Visual Studio
+### Run the sample
 
+With the AppBuilder Windows client, you can quickly test your apps on device, in the simulator or in the native emulators.
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
+
+## Visual Studio
+
+With the AppBuilder extension for Visual Studio, you can develop hybrid and NativeScript cross-platform mobile apps from Microsoft Visual Studio. You can download and install the extension from [http://www.telerik.com/appbuilder/visual-studio-extension](http://www.telerik.com/appbuilder/visual-studio-extension).
+
+### Clone the sample
+
+1. Verify that the AppBuilder extension for Visual Studio is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
 1. Select **AppBuilder** &#8594; **Get Sample**.
 1. Select **Hybrid**.
 1. Select **Demos**.
@@ -73,8 +119,23 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 
 The extension for Visual Studio copies the sample files locally. The extension creates a new solution and project and loads them.
 
-### Clone a sample app in the AppBuilder command-line interface
+### Run the sample
 
+With the AppBuilder extension for Visual Studio, you can quickly test your apps on device, in the simulator or in the native emulators.
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
+
+## CLI
+
+With the AppBuilder command-line interface, you can develop hybrid and NativeScript cross-platform mobile apps from the command line. You can learn how to add the AppBuilder commands to your command line from [http://www.telerik.com/appbuilder/command-line-interface](http://www.telerik.com/appbuilder/command-line-interface).
+
+### Clone the sample
+
+1. Verify that a command prompt is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
 1. To list the available samples, run the following command.
 
 	```bash
@@ -88,19 +149,22 @@ The extension for Visual Studio copies the sample files locally. The extension c
 
 The AppBuilder command-line interface shows the following message: `Successfully initialized project in the folder!`
 
-## Running the Sample
+### Run the sample
 
-With Telerik AppBuilder, you can deploy apps in the device simulator and on device wirelessly or via cable connection. For more information about running apps, see [Running Your App].
+With the AppBuilder command-line interface, you can quickly test your apps on device, in the simulator or in the native emulators.
 
-## License
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
 
-This sample is licensed under the Apache License, Version 2.0. For more information, see [License].
-
-[Telerik AppBuilder web page]: http://www.telerik.com/appbuilder
-[License]: License.md
-[Kendo UI web page]: http://www.telerik.com/kendo-ui
+[device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
+[companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
+[QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
+[USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
+[emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
 [Kendo UI API Reference]: http://docs.telerik.com/kendo-ui/api/introduction
-[Running Your App]: http://docs.telerik.com/platform/appbuilder/testing-your-app/run-your-app
 [Kendo MVVM]: http://docs.telerik.com/kendo-ui/framework/mvvm/overview
 [Application]: http://docs.telerik.com/kendo-ui/mobile/application
 [View]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/view
