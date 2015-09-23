@@ -6,8 +6,6 @@ Kendo UI Core Mobile App
 
 This sample shows you how to implement a native-looking user interface along with the unique Flat UI. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding.
 
-> *Last updated:* August 10, 2015
-> 
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0, Kendo UI Core v2014.1.624
