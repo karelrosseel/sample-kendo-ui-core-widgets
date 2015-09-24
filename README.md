@@ -2,7 +2,14 @@ Kendo UI Core Mobile App
 ====================
 <a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-kendo-ui-core-widgets" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
-## Overview
+<a id="top"></a>
+* [Overview](#overview)
+* [Showcased APIs](#showcased-apis)
+* [Important Directories and Files](#important-directories-and-files)
+* [Screenshots](#screenshots)
+* [Test the Sample](#test-the-sample)
+
+# Overview
 
 This sample shows you how to implement a native-looking user interface along with the unique Flat UI. The app provides a welcome screen, a dummy login form, geolocation implementation and data binding.
 
@@ -10,7 +17,9 @@ This sample shows you how to implement a native-looking user interface along wit
 >
 > *Developed with:* Apache Cordova 3.7.0, Kendo UI Core v2014.1.624
 
-## Showcased APIs
+[Back to Top](#top)
+
+# Showcased APIs
 
 This sample shows how to use the following widgets and features of Kendo UI Core.
 
@@ -31,7 +40,9 @@ This sample shows how to use the following Apache Cordova core plugins.
 * **[Geolocation][Geolocation]:** The plugin provides information about the location of the device.
 * **[Dialogs (Notification)][Dialogs (Notification)]:** The plugin provides access to the native prompt, alert and confirmation dialogs, and to the beep alerts.
 
-### Important Directories and Files
+[Back to Top](#top)
+
+# Important Directories and Files
 
 * `data\weather.json`: Contains dummy data for the weather view model.
 * `scripts\app.js`: Contains the application initialization and the implementation of switching between the native and the flat UI skins.
@@ -39,28 +50,36 @@ This sample shows how to use the following Apache Cordova core plugins.
 * `scripts\login.js`: Contains the implementation of the login view model.
 * `scripts\qr-code.js`: Contains the implementation of the weather view model.
 
-### Screenshots
+[Back to Top](#top)
 
-#### iOS
+# Screenshots
 
-Skin | Home | Login | Location | Weather
---- | --- | --- | --- | ---
-Native | ![](screenshots/ios/native-home.png) | ![](screenshots/ios/native-login.png) | ![](screenshots/ios/native-location.png) | ![](screenshots/ios/native-weather.png)
-Flat | ![](screenshots/ios/flat-home.png) | ![](screenshots/ios/flat-login.png) | ![](screenshots/ios/flat-location.png) | ![](screenshots/ios/flat-weather.png)
-
-#### Android
+### iOS
 
 Skin | Home | Login | Location | Weather
 --- | --- | --- | --- | ---
-Native | ![](screenshots/android/native-home.png) | ![](screenshots/android/native-login.png) | ![](screenshots/android/native-location.png) | ![](screenshots/android/native-weather.png)
-Flat | ![](screenshots/android/flat-home.png) | ![](screenshots/android/flat-login.png) | ![](screenshots/android/flat-location.png) | ![](screenshots/android/flat-weather.png)
+Native | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/native-home.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/native-login.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/native-location.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/native-weather.png)
+Flat | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/flat-home.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/flat-login.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/flat-location.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/ios/flat-weather.png)
 
-#### Windows Phone
+### Android
 
 Skin | Home | Login | Location | Weather
 --- | --- | --- | --- | ---
-Native | ![](screenshots/wp/native-home.png) | ![](screenshots/wp/native-login.png) | ![](screenshots/wp/native-location.png) | ![](screenshots/wp/native-weather.png)
-Flat | ![](screenshots/wp/flat-home.png) | ![](screenshots/wp/flat-login.png) | ![](screenshots/wp/flat-location.png) | ![](screenshots/wp/flat-weather.png)
+Native | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/native-home.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/native-login.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/native-location.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/native-weather.png)
+Flat | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/flat-home.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/flat-login.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/flat-location.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/android/flat-weather.png)
+
+### Windows Phone
+
+Skin | Home | Login | Location | Weather
+--- | --- | --- | --- | ---
+Native | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/native-home.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/native-login.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/native-location.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/native-weather.png)
+Flat | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/flat-home.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/flat-login.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/flat-location.png) | ![](https://github.com/Icenium/sample-kendo-ui-core-widgets/blob/master/screenshots/wp/flat-weather.png)
+
+[Back to Top](#top)
+
+# Test the Sample
+
+Apart from exploring the sample code base in GitHub, you can also clone and run the sample in your preferred AppBuilder client.
 
 ## In-Browser
 
@@ -76,6 +95,8 @@ With the AppBuilder in-browser client, you can develop hybrid and NativeScript c
 1. [Run in the device simulator.][device simulator]
 1. [Run in the companion app.][companion]
 1. [Deploy on device via QR code.][QR code]
+
+[Back to Top](#top)
 
 ## Windows
 
@@ -100,6 +121,8 @@ With the AppBuilder Windows client, you can quickly test your apps on device, in
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+[Back to Top](#top)
 
 ## Visual Studio
 
@@ -126,6 +149,8 @@ With the AppBuilder extension for Visual Studio, you can quickly test your apps 
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+[Back to Top](#top)
 
 ## CLI
 
@@ -156,6 +181,8 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+[Back to Top](#top)
 
 [device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
 [companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
