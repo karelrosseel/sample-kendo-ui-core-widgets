@@ -199,5 +199,5 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 [ListView]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/listview
 [ObservableObject]: http://docs.telerik.com/kendo-ui/api/javascript/data/observableobject
 [DataSource]: http://docs.telerik.com/kendo-ui/framework/datasource/overview
-[Geolocation]: https://github.com/apache/cordova-plugin-geolocation/blob/master/doc/index.md
-[Dialogs (Notification)]: https://github.com/apache/cordova-plugin-dialogs/blob/master/doc/index.md
+[Geolocation]: https://www.npmjs.com/package/cordova-plugin-geolocation
+[Dialogs (Notification)]: https://www.npmjs.com/package/cordova-plugin-dialogs
