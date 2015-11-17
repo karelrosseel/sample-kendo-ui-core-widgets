@@ -5,3 +5,4 @@ description: This demo application (formerly the Kendo UI Mobile app template) s
 tags: Kendo UI, Kendo UI Core, iOS, Android, Windows Phone, Apache Cordova, hybrid development, JavaScript, MVVM, datasource, data source, view, list view, listview, navbar, tabstrip, geolocation
 publish: true
 content_filter: true
+apis: kendo.mvvm kendo.observableObject kendo.application kendo.view kendo.tabStrip kendo.navBar kendo.button kendo.listView kendo.datasource cordova.geolocation cordova.dialogs

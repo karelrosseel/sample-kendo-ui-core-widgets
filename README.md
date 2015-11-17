@@ -1,10 +1,9 @@
 Kendo UI Core Widgets
 ====================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-kendo-ui-core-widgets" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/samples/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
 
 <a id="top"></a>
 * [Overview](#overview)
-* [Showcased APIs](#showcased-apis)
 * [Important Directories and Files](#important-directories-and-files)
 * [Screenshots](#screenshots)
 * [Test the Sample](#test-the-sample)
@@ -16,29 +15,6 @@ This sample shows you how to implement a native-looking user interface along wit
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0, Kendo UI Core v2014.1.624
-
-[Back to Top](#top)
-
-# Showcased APIs
-
-This sample shows how to use the following widgets and features of Kendo UI Core.
-
-* **[Kendo MVVM][Kendo MVVM]:** Model View ViewModel (MVVM) is a design pattern which helps developers separate the Model (the data) from the View (the UI). The View-Model part of MVVM is responsible for exposing the data objects from the Model in such a way that those objects are easily consumed in the View.
-* **[Application][Application]:** The widget provides the necessary tools for building native-looking web based mobile applications.
-* **[View][View]:** The widget represents a screen in the Kendo mobile Application.
-* **[Tabstrip][Tabstrip]:** The widget displays an application-wide group of navigation buttons. The look of the mobile TabStrip changes depending on the user mobile device and operating system.
-* **[NavBar][NavBar]:** The widget displays an application navigation bar. The mobile NavBar may display the current view title in the center, and optionally some additional left and right aligned widgets (a back button, settings button, etc.).
-* **[Button][Button]:** The widget navigates to a mobile View or executes a custom callback when tapped.
-* **[ListView][ListView]:** The widget displays flat or grouped list of items.
-* **[ObservableObject][ObservableObject]:** The kendo.data.ObservableObject is the building block of Kendo MVVM.
-* **[DataSource][DataSource]:** The DataSource component is an abstraction for using local data (array of JavaScript objects) or remote data (web service returning JSON, JSONP, OData or XML). 
-
-For more information about the Kendo UI widget APIs, see the [Kendo UI API Reference][Kendo UI API Reference].
-
-This sample shows how to use the following Apache Cordova core plugins.
-
-* **[Geolocation][Geolocation]:** The plugin provides information about the location of the device.
-* **[Dialogs (Notification)][Dialogs (Notification)]:** The plugin provides access to the native prompt, alert and confirmation dialogs, and to the beep alerts.
 
 [Back to Top](#top)
 
@@ -189,15 +165,3 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 [QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
 [USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
 [emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
-[Kendo UI API Reference]: http://docs.telerik.com/kendo-ui/api/introduction
-[Kendo MVVM]: http://docs.telerik.com/kendo-ui/framework/mvvm/overview
-[Application]: http://docs.telerik.com/kendo-ui/mobile/application
-[View]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/view
-[Tabstrip]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/tabstrip
-[NavBar]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/navbar
-[Button]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/button
-[ListView]: http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/listview
-[ObservableObject]: http://docs.telerik.com/kendo-ui/api/javascript/data/observableobject
-[DataSource]: http://docs.telerik.com/kendo-ui/framework/datasource/overview
-[Geolocation]: https://www.npmjs.com/package/cordova-plugin-geolocation
-[Dialogs (Notification)]: https://www.npmjs.com/package/cordova-plugin-dialogs
