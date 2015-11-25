@@ -1,6 +1,6 @@
 Kendo UI Core Widgets
 ====================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-core-widgets" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>
 
 <a id="top"></a>
 * [Overview](#overview)
@@ -14,7 +14,7 @@ This sample shows you how to implement a native-looking user interface along wit
 
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
-> *Developed with:* Apache Cordova 3.7.0, Kendo UI Core v2014.1.624
+> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 3.7.0, Kendo UI Core v2015.3.1116
 
 [Back to Top](#top)
 
@@ -141,7 +141,7 @@ With the AppBuilder command-line interface, you can develop hybrid and NativeScr
 	appbuilder sample
 	```
 1. Run the clone command for the sample as listed by `appbuilder sample`.
-	
+
 	```bash
 	appbuilder sample clone kendo-ui-core-widgets
 	```
